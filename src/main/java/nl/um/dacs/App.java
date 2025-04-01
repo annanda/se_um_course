@@ -1,7 +1,9 @@
 package nl.um.dacs;
 
+import nl.um.dacs.lecture1.Animal;
 import nl.um.dacs.lecture1.Day;
 import nl.um.dacs.lecture1.Person;
+import nl.um.dacs.lecture1.Pig;
 
 /**
  * Hello world!
@@ -22,11 +24,18 @@ public class App
         p.setName("John");
         System.out.println(p.getName());
     }
+
+    private static void animal_inheritance() {
+        Animal myAnimal = new Animal();
+        Animal myPig = new Pig();
+        myAnimal.animalSound();
+        myPig.animalSound();
+    }
     public static void main( String[] args )
     {
         // System.out.println( "Hello World!" );
         // date_violation();
-        person_encapsulation();
-
+        // person_encapsulation();
+        animal_inheritance();
     }
 }
