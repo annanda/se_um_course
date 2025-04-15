@@ -1,3 +1,5 @@
-# Software Engineering Course - Lectures Code Examples
+# Software Engineering Course - 
 
-This project contains the code examples from Software Engineering lectures. It is a configured Maven project that can be ran to practice the examples. 
+## Code Examples from Lectures
+
+This project contains the code examples from Software Engineering lectures. It is a configured Maven project that can be run to practice the examples. 
