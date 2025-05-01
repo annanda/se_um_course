@@ -5,6 +5,7 @@ import nl.um.dacs.lecture1.Day;
 import nl.um.dacs.lecture1.Dog;
 import nl.um.dacs.lecture1.Person;
 import nl.um.dacs.lecture1.Pig;
+import nl.um.dacs.lecture8.ArraySumCalculator;
 
 /**
  * Hello world!
@@ -41,12 +42,18 @@ public class App
         myPig.animalSound();
         myDog.animalSound();
     }
+
+    private static void debugging() {
+        ArraySumCalculator.main(null);
+    }
+    
     public static void main( String[] args )
     {
         // System.out.println( "Hello World!" );
         // dateViolation();
         // personEncapsulation();
         // animalInheritance();
-        animalPolymorphism();
+        // animalPolymorphism();
+        debugging();
     }
 }
